@@ -1,0 +1,18 @@
+[package]
+name = "reverb"
+version = "0.1.0"
+edition = "2018"
+description = "Simple websocket echo server with rooms"
+readme = "README.md"
+homepage = "https://github.com/celeo/reverb"
+repository = "https://github.com/celeo/reverb"
+license = "MIT OR Apache-2.0"
+exclude = [
+  ".github"
+]
+keywords = []
+categories = []
+
+[dependencies]
+tokio = { version = "1.10.1", features = ["full"] }
+tokio-tungstenite = "0.15.0"
