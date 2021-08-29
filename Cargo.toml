@@ -2,7 +2,7 @@
 name = "reverb"
 version = "0.1.0"
 edition = "2018"
-description = "Simple websocket echo server with rooms"
+description = "Simple websocket broadcast server with rooms"
 readme = "README.md"
 homepage = "https://github.com/celeo/reverb"
 repository = "https://github.com/celeo/reverb"
@@ -14,5 +14,10 @@ keywords = []
 categories = []
 
 [dependencies]
+axum = { version = "0.2.3", features = ["ws"] }
+futures = "0.3.16"
+log = "0.4.14"
+pretty_env_logger = "0.4.0"
+structopt = "0.3.22"
 tokio = { version = "1.10.1", features = ["full"] }
-tokio-tungstenite = "0.15.0"
+tower = { version = "0.4.8", features = ["util"] }

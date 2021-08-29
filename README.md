@@ -2,15 +2,17 @@
 
 [![CI](https://github.com/Celeo/reverb/workflows/CI/badge.svg?branch=master)](https://github.com/celeo/reverb/actions?query=workflow%3ACI)
 
-Simple websocket echo server with rooms.
+Simple websocket broadcast server with rooms.
 
 ## Installing
 
-TBD
+TODO
 
 ## Using
 
-TBD
+1. Download the binary (see above)
+1. Run, optionally passing the URL & port to bind to
+1. Connect with a websocket implementation (browser, or something like [websocat](https://crates.io/crates/websocat))
 
 ## Developing
 
