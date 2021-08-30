@@ -6,13 +6,15 @@ Simple websocket broadcast server with rooms.
 
 ## Installing
 
-TODO
+1. Download a binray from the [GitHub releases page](https://github.com/Celeo/reverb)
 
 ## Using
 
 1. Download the binary (see above)
 1. Run, optionally passing the URL & port to bind to
 1. Connect with a websocket implementation (browser, or something like [websocat](https://crates.io/crates/websocat))
+
+***Rooms are in-dev***
 
 ## Developing
 
