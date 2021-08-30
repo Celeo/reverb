@@ -6,7 +6,7 @@ Simple websocket broadcast server with rooms.
 
 ## Installing
 
-1. Download a binray from the [GitHub releases page](https://github.com/Celeo/reverb)
+1. Download a binary from the [GitHub releases page](https://github.com/Celeo/reverb)
 
 ## Using
 
